@@ -1,0 +1,32 @@
+[
+  {
+    "id": "prod-1",
+    "name": "Vars Organiese Tamaties (5kg)",
+    "seller": "GreenValley Farm",
+    "category": "Produce",
+    "price": 45.00,
+    "unit": "XCHEF-P",
+    "image": "🍅",
+    "rating": 4.9
+  },
+  {
+    "id": "prod-2",
+    "name": "Artisanal Suurdeeg Brood",
+    "seller": "The Local Bakery",
+    "category": "Bakery",
+    "price": 28.50,
+    "unit": "XCHEF-P",
+    "image": "🍞",
+    "rating": 4.8
+  },
+  {
+    "id": "prod-3",
+    "name": "Gepasteuriseerde Melk (2L)",
+    "seller": "Highland Dairy",
+    "category": "Dairy",
+    "price": 22.00,
+    "unit": "XCHEF-P",
+    "image": "🥛",
+    "rating": 4.7
+  }
+]
