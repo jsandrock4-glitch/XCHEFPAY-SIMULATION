@@ -8,9 +8,9 @@ export default function RoleSelectionPage() {
   const roles = [
     {
       id: 'consumer',
-      title: 'Verbruiker (Consumer)',
-      subtitle: 'Spandeer XCHEF-P & verdien belonings',
-      desc: 'Koop vars produkte, betaal restaurante, skandeer QR-kodes en verdien intydse XCHEF-E belonings.',
+      title: 'Consumer',
+      subtitle: 'Spend XCHEF-P & earn rewards',
+      desc: 'Buy fresh produce, pay restaurants, scan QR codes, and earn real-time XCHEF-E rewards.',
       icon: User,
       color: 'from-[#00ff9d]/20 to-transparent',
       borderColor: 'border-[#00ff9d]/30',
@@ -21,9 +21,9 @@ export default function RoleSelectionPage() {
     },
     {
       id: 'farmer',
-      title: 'Boer (Producer / Farmer)',
-      subtitle: 'Dual-Wallet & Oes-bestuur',
-      desc: 'Lys jou plaasprodukte, bestuur jou Landbou-beursie teenoor jou Persoonlike beursie, en kry direkte betalings.',
+      title: 'Producer / Farmer',
+      subtitle: 'Dual-Wallet & Harvest Management',
+      desc: 'List farm produce, manage Agri Treasury vs Personal wallet, and receive direct payments.',
       icon: Sprout,
       color: 'from-[#ffb703]/20 to-transparent',
       borderColor: 'border-[#ffb703]/30',
@@ -34,9 +34,9 @@ export default function RoleSelectionPage() {
     },
     {
       id: 'business',
-      title: 'Handelaar (Business POS)',
-      subtitle: 'Verkope, POS & Inkomste Analise',
-      desc: 'Ontvang XCHEF betalings via slim QR-kodes, bestuur voorraad en monitor jou daaglikse omset intyds.',
+      title: 'Business / Merchant POS',
+      subtitle: 'Sales, POS & Revenue Analytics',
+      desc: 'Accept XCHEF payments via smart QR codes, manage inventory, and monitor daily turnover in real time.',
       icon: Store,
       color: 'from-[#00e5ff]/20 to-transparent',
       borderColor: 'border-[#00e5ff]/30',
@@ -47,9 +47,9 @@ export default function RoleSelectionPage() {
     },
     {
       id: 'treasury',
-      title: 'Protokol & Treasury Engine',
-      subtitle: 'Tokenomics, Likiditeit & Fooi-Inkomste',
-      desc: 'Sien die sentrale reserwe-poel, sirkulerende XCHEF-P/E aanbod, en stresstoets netwerk-transaksies.',
+      title: 'Protocol & Treasury Engine',
+      subtitle: 'Tokenomics, Liquidity & Fee Revenue',
+      desc: 'View central reserve pool, circulating XCHEF-P/E supply, and stress-test network transactions.',
       icon: Cpu,
       color: 'from-[#7b2cbf]/20 to-transparent',
       borderColor: 'border-[#7b2cbf]/30',
@@ -76,7 +76,7 @@ export default function RoleSelectionPage() {
           XCHEFPAY ECOSYSTEM
         </h1>
         <p className="text-xs text-gray-400 mt-1 max-w-xs mx-auto">
-          Kies jou rol in die voedsel-voorsieningsketting om die ekonomiese simulasie te begin.
+          Select your role in the food supply chain to launch the economic simulation.
         </p>
       </header>
 
@@ -116,7 +116,7 @@ export default function RoleSelectionPage() {
                     href={role.href}
                     className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all shadow-lg ${role.btnBg}`}
                   >
-                    <span>Betree Rol</span>
+                    <span>Enter Role</span>
                     <ArrowRight className="w-3.5 h-3.5" />
                   </Link>
                 </div>
@@ -130,7 +130,7 @@ export default function RoleSelectionPage() {
       <footer className="mt-6 text-center z-10">
         <div className="flex items-center justify-center gap-1.5 text-[11px] text-gray-500">
           <ShieldCheck className="w-3.5 h-3.5 text-[#00ff9d]" />
-          <span>Plaaslike Simulasie-Modus • Geen Regte Kripto Vereis</span>
+          <span>Local Simulation Mode • No Real Crypto Required</span>
         </div>
       </footer>
     </main>
