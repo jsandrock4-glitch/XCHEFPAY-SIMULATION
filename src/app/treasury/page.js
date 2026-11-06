@@ -33,7 +33,7 @@ export default function TreasuryDashboard() {
       <div className="glass-card rounded-2xl p-5 border border-[#7b2cbf]/40 relative overflow-hidden mb-6">
         <div className="flex justify-between items-start mb-3">
           <div>
-            <p className="text-xs text-gray-400">Protokol Reserwe (Treasury Pool)</p>
+            <p className="text-xs text-gray-400">Protocol Reserve (Treasury Pool)</p>
             <h2 className="text-3xl font-extrabold text-white mt-1">
               R{treasuryReserve.toLocaleString()} <span className="text-xs text-[#c77dff] font-mono">ZAR Pegged</span>
             </h2>
@@ -43,7 +43,7 @@ export default function TreasuryDashboard() {
           </div>
         </div>
         <p className="text-[11px] text-gray-400">
-          Intydse likiditeit-stut vir die XCHEF Dual-Token Ekosisteem.
+          Real-time liquidity support for the XCHEF Dual-Token Ecosystem.
         </p>
       </div>
 
@@ -51,7 +51,7 @@ export default function TreasuryDashboard() {
       <div className="grid grid-cols-2 gap-3 mb-6">
         <div className="glass-panel rounded-xl p-4 border border-[#00ff9d]/20">
           <p className="text-[10px] text-gray-400 flex items-center gap-1 mb-1">
-            <Layers className="w-3 h-3 text-[#00ff9d]" /> XCHEF-P Sirkulasie
+            <Layers className="w-3 h-3 text-[#00ff9d]" /> XCHEF-P Circulation
           </p>
           <p className="text-lg font-bold text-white font-mono">
             {totalCirculatingP.toLocaleString()}
@@ -61,7 +61,7 @@ export default function TreasuryDashboard() {
 
         <div className="glass-panel rounded-xl p-4 border border-[#ffb703]/20">
           <p className="text-[10px] text-gray-400 flex items-center gap-1 mb-1">
-            <PieChart className="w-3 h-3 text-[#ffb703]" /> XCHEF-E Ge-stake
+            <PieChart className="w-3 h-3 text-[#ffb703]" /> XCHEF-E Staked
           </p>
           <p className="text-lg font-bold text-white font-mono">
             {totalStakedE.toLocaleString()}
@@ -74,7 +74,7 @@ export default function TreasuryDashboard() {
       <div className="glass-card rounded-2xl p-5 border border-white/10 mb-6">
         <div className="flex justify-between items-center mb-2">
           <span className="text-xs text-gray-400 flex items-center gap-1.5">
-            <ShieldAlert className="w-4 h-4 text-[#00e5ff]" /> Gekumuleerde Protokol-Fooie
+            <ShieldAlert className="w-4 h-4 text-[#00e5ff]" /> Accumulated Protocol Fees
           </span>
           <span className="text-xs font-bold text-[#00e5ff] font-mono">
             R{protocolFeesCollected.toFixed(2)}
@@ -84,7 +84,7 @@ export default function TreasuryDashboard() {
           <div className="bg-gradient-to-r from-[#00e5ff] to-[#7b2cbf] h-full w-[65%]" />
         </div>
         <p className="text-[10px] text-gray-400">
-          Inkomste gegenereer uit die 2% Verbruikers-fooi en POS Nedersettings.
+          Revenue generated from the 2% Consumer fee and POS settlements.
         </p>
       </div>
 
@@ -94,14 +94,14 @@ export default function TreasuryDashboard() {
           <Cpu className="w-4 h-4 text-[#00ff9d]" /> Stress-Test Simulator
         </h4>
         <p className="text-[10px] text-gray-400 mb-3">
-          Simuleer 1,000 outomatiese ekosisteem-transaksies binne die netwerk.
+          Simulate 1,000 automated ecosystem transactions within the network.
         </p>
         <button
           onClick={handleSimulateCycle}
-          className="w-full py-2.5 rounded-xl bg-gradient-to-r from-[#00ff9d] to-[#00e5ff] text-black font-bold text-xs hover:opacity-90 transition-all flex items-center justify-center gap-2"
+          className="w-full py-2.5 rounded-xl bg-gradient-to-r from-[#00ff9d] to-[#00e5ff] text-black font-bold text-xs hover:opacity-90 transition-all flex items-center justify-center gap-2 cursor-pointer"
         >
           <RefreshCw className="w-4 h-4 animate-spin-slow" />
-          <span>Simuleer Transaksie-Siklus</span>
+          <span>Simulate Transaction Cycle</span>
         </button>
       </div>
     </main>
